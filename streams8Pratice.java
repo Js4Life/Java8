@@ -2,6 +2,18 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.function.Function;
 
+// intersection :
+// [3, 4]
+// Remove duplicates : 
+// [1, 2, 3, 4, 5, 6]
+// Remove duplicates : 
+// {2022-01-03=400, 2022-01-01=300, 2022-01-02=300}
+// Smallest element in an array
+// k th Smallest number 3
+// word Frequency{banana=2, cherry=1, apple=3}
+// Even numbers: [2, 4, 6, 8]
+// Odd numbers: [1, 3, 5, 7, 9]
+
 public class Main {
     public static void main(String[] args) {
       System.out.println("intersection :");
