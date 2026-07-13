@@ -25,5 +25,12 @@ public class Main {
      // Remove Dups in list 
      list.stream().distinct().forEach(n-> System.out.println(n));
 
+    System.out.println("Java 8 Completable Feature");
+        
+        CompletableFuture.supplyAsync(() -> "hello")
+        .thenApply(String::toUpperCase)
+        .thenAccept(result -> System.out.println("Result: " + result))
+        .join();
+
     }
 }
