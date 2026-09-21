@@ -30,3 +30,9 @@ public class Main {
       B obj = new B(5);
     }
 }
+
+//output
+
+// in A
+// in B
+// in B int
